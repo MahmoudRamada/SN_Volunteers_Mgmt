@@ -1,0 +1,12 @@
+<record_update>
+  <table>sys_choice</table>
+  <action>insert_or_update</action>
+  <payload>
+    <name>Background Check Status - Pending</name>
+    <element>u_background_check_status</element>
+    <label>Pending</label>
+    <value>Pending</value>
+    <order>100</order>
+    <sys_scope>x_example_volunteer</sys_scope>
+  </payload>
+</record_update>

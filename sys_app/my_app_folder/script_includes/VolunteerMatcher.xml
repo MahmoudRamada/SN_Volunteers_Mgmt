@@ -1,0 +1,19 @@
+<record_update>
+  <table>sys_script_include</table>
+  <action>insert_or_update</action>
+  <payload>
+    <name>VolunteerMatcher</name>
+    <api_name>VolunteerMatcher</api_name>
+    <script>
+      var VolunteerMatcher = Class.create();
+      VolunteerMatcher.prototype = {
+        initialize: function() {},
+        suggestVolunteers: function(eventSysId) {
+          // placeholder: logic to match by skills, availability, valid background check
+        },
+        type: 'VolunteerMatcher'
+      };
+    </script>
+    <sys_scope>x_example_volunteer</sys_scope>
+  </payload>
+</record_update>

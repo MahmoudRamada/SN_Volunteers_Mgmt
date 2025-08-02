@@ -1,0 +1,9 @@
+<record_update>
+  <table>sys_user_role</table>
+  <action>insert_or_update</action>
+  <payload>
+    <name>coordinator</name>
+    <description>Volunteer Coordinator</description>
+    <sys_scope>global</sys_scope>
+  </payload>
+</record_update>

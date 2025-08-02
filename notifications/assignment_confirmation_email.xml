@@ -1,0 +1,10 @@
+<record_update>
+  <table>sysevent_email_template</table>
+  <action>insert_or_update</action>
+  <payload>
+    <name>Assignment Confirmation</name>
+    <subject>You're assigned to ${u_event.u_title}</subject>
+    <message>Hello ${u_volunteer.u_name},<br/><br/>You have been assigned to the event: ${u_event.u_title} on ${u_event.u_start}.<br/><br/>Thank you!<br/></message>
+    <sys_scope>x_example_volunteer</sys_scope>
+  </payload>
+</record_update>

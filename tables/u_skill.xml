@@ -1,0 +1,21 @@
+<record_update>
+  <table>u_skill</table>
+  <action>insert_or_update</action>
+  <payload>
+    <name>u_skill</name>
+    <label>Skill / Certification</label>
+    <sys_scope>x_example_volunteer</sys_scope>
+    <columns>
+      <column>
+        <name>u_name</name>
+        <label>Name</label>
+        <type>string</type>
+      </column>
+      <column>
+        <name>u_description</name>
+        <label>Description</label>
+        <type>string</type>
+      </column>
+    </columns>
+  </payload>
+</record_update>

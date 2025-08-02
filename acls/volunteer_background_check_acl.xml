@@ -1,0 +1,14 @@
+<record_update>
+  <table>sys_security_acl</table>
+  <action>insert_or_update</action>
+  <payload>
+    <name>Volunteer Background Check Status Read</name>
+    <operation>read</operation>
+    <type>record</type>
+    <table>u_volunteer</table>
+    <field>u_background_check_status</field>
+    <roles>compliance_reviewer,admin</roles>
+    <condition/>
+    <sys_scope>x_example_volunteer</sys_scope>
+  </payload>
+</record_update>

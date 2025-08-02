@@ -1,6 +1,0 @@
-<application name="Volunteer Management" scope="x_example_volunteer" version="1.0.0" active="true" scope_locked="false">
-  <label>Volunteer Management</label>
-  <description>Scoped app to manage volunteers, events, assignments, and compliance.</description>
-  <publisher>YourCompany</publisher>
-  <sys_id>00000000000000000000000000000000</sys_id>
-</application>
